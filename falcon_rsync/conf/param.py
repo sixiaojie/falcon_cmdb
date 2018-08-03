@@ -14,9 +14,18 @@ param = {
             "method":"GET"
         }
     },
-    "host":{
+    "hostgroup":{
         "create":{
-
+            "url":"/api/v1/hostgroup",
+            "method":"POST"
+        },
+        "get":{
+            "url":"/api/v1/hostgroup",
+            "method":"GET"
+        },
+        "patch":{
+            "url":"/api/v1/hostgroup/",
+            "method":"PATCH"
         }
     }
 }
